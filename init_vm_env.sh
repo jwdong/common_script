@@ -75,3 +75,5 @@ systemctl stop NetworkManager firewalld
 systemctl disable NetworkManager firewalld 
 setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+
+yum -y install wget net-tool vim
